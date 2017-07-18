@@ -1,0 +1,7 @@
+@import 'base';
+@media (min-width: 768px){
+    @import 'tablet';
+}
+@media (min-width: 992px){
+    @import 'desktop';
+}

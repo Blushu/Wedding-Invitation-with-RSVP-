@@ -1,0 +1,170 @@
+* {
+  -webit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  text-align: center; }
+
+div.container-fluid {
+  max-width: 400px;
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/e3/db/c8/e3dbc80a5256e6466497cde947fc4ae2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 140px;
+  padding-bottom: 100px; }
+
+.header-col {
+  text-align: center; }
+  .header-col div {
+    border: solid 2px #515d77;
+    width: 200px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .header-col h1 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 46px;
+    text-align: center;
+    color: #515d77; }
+  .header-col h1#john {
+    margin-left: -20px; }
+  .header-col h1#carlie {
+    margin-left: 70px; }
+
+#details {
+  text-align: center;
+  margin-top: 140px; }
+  #details p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px; }
+    #details p a {
+      font-family: 'Dancing Script', cursive; }
+    #details p button.rsvp {
+      margin-top: -20px; }
+
+/* --- RSVP PAGE --- */
+.spacer {
+  display: none; }
+
+.rsvp {
+  background-color: #8e99af;
+  margin-top: 20px;
+  border-radius: 15px; }
+  .rsvp h1 {
+    color: #515d77; }
+
+.asterik {
+  color: #515d77; }
+
+form {
+  margin-bottom: 20px; }
+
+@media (min-width: 768px) {
+  .spacer {
+    display: block; }
+
+  div.container-fluid {
+    max-width: 768px;
+    padding-top: 150px;
+    padding-bottom: 120px; }
+
+  .header-col {
+    text-align: center; }
+    .header-col div {
+      border: solid 2px #515d77;
+      width: 320px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto; }
+    .header-col h1 {
+      margin: 0;
+      font-family: 'Dancing Script', cursive;
+      font-size: 60px;
+      text-align: center;
+      color: #515d77; }
+    .header-col h1#john {
+      margin-left: -20px; }
+    .header-col h1#carlie {
+      margin-left: 70px; }
+
+  #details {
+    text-align: center;
+    margin-top: 10px; }
+    #details p {
+      font-family: 'Amatic SC', cursive;
+      font-size: 20px; }
+      #details p a {
+        font-family: 'Dancing Script', cursive; }
+
+  /* --- RSVP PAGE --- */
+  .spacer {
+    display: none; }
+
+  .rsvp {
+    background-color: #8e99af;
+    margin-top: 20px;
+    border-radius: 15px; }
+    .rsvp h1 {
+      color: #515d77; }
+
+  .asterik {
+    color: #515d77; }
+
+  form {
+    margin-bottom: 20px; } }
+@media (min-width: 992px) {
+  div.container-fluid {
+    max-width: 1000px;
+    padding-top: 250px;
+    padding-bottom: 300px; }
+
+  .header-col {
+    text-align: center; }
+    .header-col div {
+      border: solid 2px #515d77;
+      width: 420px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto; }
+    .header-col h1 {
+      margin: 0;
+      font-family: 'Dancing Script', cursive;
+      font-size: 76px;
+      text-align: center;
+      color: #515d77; }
+    .header-col h1#john {
+      margin-left: -20px; }
+    .header-col h1#carlie {
+      margin-left: 70px; }
+
+  #details {
+    text-align: center;
+    margin-top: 30px; }
+    #details p {
+      font-family: 'Amatic SC', cursive;
+      font-size: 30px; }
+      #details p a {
+        font-family: 'Dancing Script', cursive; }
+
+  /* --- RSVP PAGE --- */
+  .spacer {
+    display: block; }
+
+  .rsvp {
+    background-color: #8e99af;
+    margin-top: 20px;
+    border-radius: 15px; }
+    .rsvp h1 {
+      color: #515d77; }
+
+  .asterik {
+    color: #515d77; }
+
+  form {
+    margin-bottom: 20px; } }
+
+/*# sourceMappingURL=styles.css.map */

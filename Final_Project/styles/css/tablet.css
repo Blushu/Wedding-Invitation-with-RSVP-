@@ -1,0 +1,54 @@
+.spacer {
+  display: block; }
+
+div.container-fluid {
+  max-width: 768px;
+  padding-top: 150px;
+  padding-bottom: 120px; }
+
+.header-col {
+  text-align: center; }
+  .header-col div {
+    border: solid 2px #515d77;
+    width: 320px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .header-col h1 {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: #515d77; }
+  .header-col h1#john {
+    margin-left: -20px; }
+  .header-col h1#carlie {
+    margin-left: 70px; }
+
+#details {
+  text-align: center;
+  margin-top: 10px; }
+  #details p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px; }
+    #details p a {
+      font-family: 'Dancing Script', cursive; }
+
+/* --- RSVP PAGE --- */
+.spacer {
+  display: none; }
+
+.rsvp {
+  background-color: #8e99af;
+  margin-top: 20px;
+  border-radius: 15px; }
+  .rsvp h1 {
+    color: #515d77; }
+
+.asterik {
+  color: #515d77; }
+
+form {
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=tablet.css.map */
